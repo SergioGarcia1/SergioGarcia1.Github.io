@@ -1,0 +1,140 @@
+
+
+p{
+    color:#724746 ;
+    padding-left: 5%;
+    font-family:'Lora', serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+ 
+.Container{
+display:grid;
+grid-template: 1fr 2fr/1fr 5fr 1fr;
+z-index: 2;
+
+}
+
+
+
+.Header{
+    padding-right: 20px;
+    padding-top: 7%;
+    font-family: 'Lora', serif;
+    z-index: 2;
+}
+
+
+.SPN + .SPN{
+    margin-left: 25px;
+   
+}
+
+.ClaseR{
+    grid-column-start: 2;
+    background-color: #F0D6D1;
+    display:flex;
+    justify-content: space-between;
+    z-index: -2;
+
+    
+}
+.NAV{
+    z-index: 2;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    padding-left: 40%;
+    padding-top: 4%;
+    font-family:'Lora', serif;
+}
+
+
+.SPAN{
+    color: #2896A4;
+     font-size: 40px ;
+
+    }
+
+.SPAN,.SPAN1
+{
+    font-family: 'Lora', serif;
+}
+    .SPAN1{
+     color: #92140C;
+     font-size: 35px;
+    }
+    
+
+    .ListaComida{
+        grid-row-start: 1;
+        grid-column-start: 4;
+        z-index: 2;
+    }
+
+    .ClaseComida{
+        display:flex;
+        flex-direction: row;
+    }
+
+    .AComida{
+        height: 210px;
+        width: 240px;  
+    }
+    
+    .Description{
+        background-color: #FFF8F0; 
+        height: 210px;
+        width: 240px;  
+        text-align: center;
+        justify-content: center;
+   
+    }
+    
+.Plato #Home{
+
+font-size: bolder;
+
+
+}    
+
+
+.Contenedor{
+    display:grid;
+    grid-template: 1fr 1fr 1fr/2.8fr 2.5fr 2.5fr 2.5fr 2.5fr 5fr;
+    z-index: 4;
+    }
+    
+
+
+    .ListaComida2{
+        grid-row-start: 1;
+        grid-column-start: 4;
+        z-index: 2;
+    }
+
+    .ClaseComida2{
+        display:flex;
+        flex-direction: row;
+    }
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
