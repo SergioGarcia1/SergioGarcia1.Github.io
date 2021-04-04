@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    background:url(https://img.freepik.com/vector-gratis/fondo-hexagonal-oscuro-color-degradado_79603-1409.jpg?size=626&ext=jpg) #001514;
+background-size:cover ;
+color: #FAFAFF;
+font-size: 16px;
+}
+.wrap{
+width: 100%;
+max-width: 1000px;
+margin: auto;
+
+}
+.widget{
+width: 50%;
+margin: 16px;
+
+
+
+}
+.widget p{
+
+display: inline-block;
+line-height: 24px;
+
+
+}
+.fecha{
+
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 5px ;
+    background: #001011;
+    opacity: 0.8;
+    padding: 20px;
+    width: 100%;
+
+
+}
+.reloj{
+
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 64px;
+    background: #001011;
+    opacity: 0.8;
+    padding: 20px;
+    width: 100%;
+
+}
+.reloj .Apseconds{
+
+display: inline-block;
+
+}
+
+.reloj .AmPm,
+.reloj .Segundos{
+
+font-size: 32px;
+display: block;
+
+}
+.Ccronometro{
+
+    background: #001011;
+    opacity: 0.8;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+span{
+
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    
+
+
+}
+.Ctiempo{
+    
+    background: #001011;
+    opacity: 0.8;
+    width: 100%;
+  margin-top: 50px;
+
+
+
+}
+
+.Texto{
+ 
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+margin-left: 180px;
+
+}
+
+
+.Ctiempo .pantalla{
+margin: 6px;
+font-size: 32px;
+text-align: center;
+
+
+
+}
+.Cboton{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+       gap: 50px;
+       margin: 15px 100px;
+    
+}
+
+.Cboton >button{
+
+display: block;
+background: none;
+border: none;
+cursor: pointer;
+color: #FAFAFF;
+opacity: 0.8;
+font-size: 24px;
+
+}
+
+button:hover{
+ 
+    transform: scale(1.2);
+    transition: 0.5s;
+    background-color: #7AE582;
+    opacity: 0.8;
+
+
+}
