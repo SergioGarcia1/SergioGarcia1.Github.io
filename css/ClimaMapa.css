@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+.prediccion{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr 1fr;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+i{
+    font-size: 1.5em;
+}
+
+
+html{
+
+    background:url(https://us.123rf.com/450wm/macrovector/macrovector1403/macrovector140300361/26701046-tiempo-iconos-de-previsi%C3%B3n-conjunto-de-nubes-el-cielo-claro-y-el-rel%C3%A1mpago-ilustraci%C3%B3n.jpg?ver=6) ;
+    background-size: cover;
+
+}
+#mapid{
+
+
+    height: 180px;
+
+
+
+
+}
