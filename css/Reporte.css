@@ -1,13 +1,42 @@
-.Container{
-    width: 10%;
-    height: 40px;
-font-size: 45px;
-font-family:'Lora', serif;
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+.Reporte{
+
+    display: flex;
+    font-weight: bolder;
+    font-size: 35px;
+    justify-content: center;
+padding-top: 20px;
+
+font-family: 'Roboto', sans-serif;
+
+
+}
+
+a{
+
 font-weight: bolder;
-opacity: 0.8;
+font-size: 15px;
+
+}
+
+img{
+
+height: 280px;
+width: 300px;
 
 
+}
+
+body{
 
 
+    background-image: url(https://media.vandal.net/m/4-2020/20204911423948_1.jpg);
+
+background-size: cover;
 
 }
